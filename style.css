@@ -1,0 +1,31 @@
+.numpad {
+    display: flex;
+    flex-direction: column;
+}
+
+.col {
+    display: flex;
+}
+
+.row {
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    min-height: 100px;
+    min-width: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-size: large;
+}
+
+.display, #equals {
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    max-width: 406px;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 700;
+    min-height: 50px;
+    line-height: 50px;
+}
